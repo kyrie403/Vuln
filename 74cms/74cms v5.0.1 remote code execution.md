@@ -167,7 +167,7 @@ function multimerge($a, $b) {
 }
 ```
 
-CONF_PATH in /ThinkPHP/ThinkPHP.php Line 54: CONF_PATH.'url.php' ->  /Application/Home/Conf/url.php
+CONF_PATH in /ThinkPHP/ThinkPHP.php Line 54: CONF_PATH.'url.php' ->  /Application/Common/Conf/url.php
 
 ```php
 defined('COMMON_PATH')  or define('COMMON_PATH',    APP_PATH.'Common/'); // 应用公共目录
