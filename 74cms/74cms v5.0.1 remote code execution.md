@@ -181,7 +181,7 @@ define('APP_PATH','./Application/');
           file_put_contents($config_file, "<?php \nreturn " . stripslashes(var_export($config, true)) . ";", LOCK_EX);
 ```
 
-/Application/Home/Conf/url.php: The code after "return array(...);" does not work, so payload is site_domain=', {your php code}),'
+/Application/Home/Conf/url.php: The code after "return array(...);" does not work, so payload is site_domain=', {your php code},'
 
 ```php
 <?php 
